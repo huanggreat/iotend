@@ -3,3 +3,5 @@
 /workspace.xml
 *.jar
 *.cache
+.idea/*
+.idea/.gitignore
