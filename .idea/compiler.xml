@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="iotend-common" />
+        <module name="iotend-demo" />
+        <module name="iotend-client" />
+        <module name="iotend-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="iotend-client" target="1.5" />
+      <module name="iotend-common" target="1.5" />
+      <module name="iotend-demo" target="8" />
+      <module name="iotend-server" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="iotend-common" options="" />
+    </option>
+  </component>
+</project>

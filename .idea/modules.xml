@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/iotend.iml" filepath="$PROJECT_DIR$/.idea/iotend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-client/iotend-client.iml" filepath="$PROJECT_DIR$/iotend-client/iotend-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-common/iotend-common.iml" filepath="$PROJECT_DIR$/iotend-common/iotend-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-demo/iotend-demo.iml" filepath="$PROJECT_DIR$/iotend-demo/iotend-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-server/iotend-server.iml" filepath="$PROJECT_DIR$/iotend-server/iotend-server.iml" />
     </modules>
   </component>
 </project>
