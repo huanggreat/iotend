@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/iotend-server/pom.xml" />
         <option value="$PROJECT_DIR$/iotend-client/pom.xml" />
         <option value="$PROJECT_DIR$/iotend-common/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-utils/pom.xml" />
       </list>
     </option>
   </component>
