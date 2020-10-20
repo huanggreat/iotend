@@ -1,7 +1,6 @@
 package com.iotend.server;
 
 import com.iotend.server.echo.EchoServer;
-import com.iotend.utils.OsInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

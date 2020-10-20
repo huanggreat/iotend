@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/iotend-client/iotend-client.iml" filepath="$PROJECT_DIR$/iotend-client/iotend-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-common/iotend-common.iml" filepath="$PROJECT_DIR$/iotend-common/iotend-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-demo/iotend-demo.iml" filepath="$PROJECT_DIR$/iotend-demo/iotend-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-mqtt/iotend-mqtt.iml" filepath="$PROJECT_DIR$/iotend-mqtt/iotend-mqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" filepath="$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-server/iotend-server.iml" filepath="$PROJECT_DIR$/iotend-server/iotend-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-utils/iotend-utils.iml" filepath="$PROJECT_DIR$/iotend-utils/iotend-utils.iml" />
     </modules>

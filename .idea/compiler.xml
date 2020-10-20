@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="iotend-common" />
         <module name="iotend-demo" />
+        <module name="iotend-mqtt-emqx" />
         <module name="iotend-client" />
         <module name="iotend-server" />
         <module name="iotend-utils" />
@@ -18,6 +19,8 @@
       <module name="iotend-client" target="1.5" />
       <module name="iotend-common" target="1.5" />
       <module name="iotend-demo" target="8" />
+      <module name="iotend-mqtt" target="1.5" />
+      <module name="iotend-mqtt-emqx" target="1.5" />
       <module name="iotend-server" target="1.5" />
       <module name="iotend-utils" target="1.5" />
     </bytecodeTargetLevel>
