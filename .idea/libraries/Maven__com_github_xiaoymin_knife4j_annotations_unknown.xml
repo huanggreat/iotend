@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.xiaoymin:knife4j-annotations:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-annotations/unknown/knife4j-annotations-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-annotations/unknown/knife4j-annotations-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-annotations/unknown/knife4j-annotations-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -3,7 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/iotend.iml" filepath="$PROJECT_DIR$/.idea/iotend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-authority/iotend-authority.iml" filepath="$PROJECT_DIR$/iotend-authority/iotend-authority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-authority/iotend-authority-biz/iotend-authority-biz.iml" filepath="$PROJECT_DIR$/iotend-authority/iotend-authority-biz/iotend-authority-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-commons.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-core/iotend-core.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-core/iotend-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-dependencies/iotend-dependencies.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-dependencies/iotend-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" filepath="$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-oauth/iotend-oauth.iml" filepath="$PROJECT_DIR$/iotend-oauth/iotend-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-oauth/iotend-oauth-biz/iotend-oauth-biz.iml" filepath="$PROJECT_DIR$/iotend-oauth/iotend-oauth-biz/iotend-oauth-biz.iml" />
     </modules>
   </component>
 </project>

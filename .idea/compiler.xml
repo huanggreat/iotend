@@ -7,15 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="iotend-dependencies" />
+        <module name="iotend-oauth-biz" />
         <module name="iotend-mqtt-emqx" />
+        <module name="iotend-core" />
+        <module name="iotend-authority-biz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="iotend-authority" target="1.5" />
+      <module name="iotend-authority-biz" target="1.5" />
       <module name="iotend-client" target="1.5" />
       <module name="iotend-common" target="1.5" />
+      <module name="iotend-commons" target="1.5" />
+      <module name="iotend-core" target="1.5" />
       <module name="iotend-demo" target="8" />
+      <module name="iotend-dependencies" target="1.5" />
       <module name="iotend-mqtt" target="1.5" />
       <module name="iotend-mqtt-emqx" target="1.5" />
+      <module name="iotend-oauth" target="1.5" />
+      <module name="iotend-oauth-biz" target="1.5" />
       <module name="iotend-server" target="1.5" />
       <module name="iotend-utils" target="1.5" />
     </bytecodeTargetLevel>
