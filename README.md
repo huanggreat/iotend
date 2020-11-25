@@ -6,6 +6,6 @@
 #####感谢支持
 <br/>
 <div  align="center">    
-    <img src="doc/images/微信收款.jpg" width = 180 height = 200 />
-    <img src="doc/images/支付宝收款.jpg" width = 180 height = 200 />
+    <img src="doc/images/微信收款.jpg" width = 250 height = 280 />
+    <img src="doc/images/支付宝收款.jpg" width = 250 height = 280 />
 </div>
