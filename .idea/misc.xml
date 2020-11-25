@@ -3,11 +3,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/iotend-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/iotend-server/pom.xml" />
-        <option value="$PROJECT_DIR$/iotend-client/pom.xml" />
-        <option value="$PROJECT_DIR$/iotend-common/pom.xml" />
-        <option value="$PROJECT_DIR$/iotend-utils/pom.xml" />
         <option value="$PROJECT_DIR$/iotend-mqtt/pom.xml" />
       </list>
     </option>

@@ -1,7 +1,0 @@
-//指定protobuf语法版本
-syntax = "proto2";
-
-message login{
-  required int32 ID = 1;
-  required string Content = 2;
-}

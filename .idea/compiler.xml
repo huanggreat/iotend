@@ -7,12 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="iotend-common" />
-        <module name="iotend-demo" />
         <module name="iotend-mqtt-emqx" />
-        <module name="iotend-client" />
-        <module name="iotend-server" />
-        <module name="iotend-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
