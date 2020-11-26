@@ -6,5 +6,7 @@
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-jwt-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iotend-commons/iotend-validator-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/iotend-commons/iotend-validator-starter/src/main/resources" charset="UTF-8" />
   </component>
 </project>

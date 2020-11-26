@@ -15,6 +15,7 @@
         <module>iotend-core</module>
         <module>iotend-jwt-starter</module>
         <module>iotend-swagger2-starter</module>
+        <module>iotend-validator-starter</module>
     </modules>
 
     <dependencies>

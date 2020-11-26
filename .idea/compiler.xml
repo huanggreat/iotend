@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="iotend-core" />
+        <module name="iotend-authority-biz" />
         <module name="iotend-oauth-biz" />
         <module name="iotend-mqtt-emqx" />
         <module name="iotend-jwt-starter" />
+        <module name="iotend-validator-starter" />
         <module name="iotend-swagger2-starter" />
-        <module name="iotend-core" />
-        <module name="iotend-authority-biz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="iotend-server" target="1.5" />
       <module name="iotend-swagger2-starter" target="8" />
       <module name="iotend-utils" target="1.5" />
+      <module name="iotend-validator-starter" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

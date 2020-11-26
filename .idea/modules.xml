@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/iotend-oauth/iotend-oauth.iml" filepath="$PROJECT_DIR$/iotend-oauth/iotend-oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-oauth/iotend-oauth-biz/iotend-oauth-biz.iml" filepath="$PROJECT_DIR$/iotend-oauth/iotend-oauth-biz/iotend-oauth-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/iotend-swagger2-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/iotend-swagger2-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-validator-starter/iotend-validator-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-validator-starter/iotend-validator-starter.iml" />
     </modules>
   </component>
 </project>
