@@ -11,6 +11,18 @@
     <artifactId>iotend-swagger2-starter</artifactId>
     <name>${project.artifactId}</name>
     <description>swagger文档模块</description>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
@@ -40,6 +52,11 @@
             <version>2.3.4.RELEASE</version>
             <optional>true</optional>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-spring-web</artifactId>
+            <version>2.9.2</version>
         </dependency>
 
     </dependencies>

@@ -30,7 +30,7 @@
       <module name="iotend-oauth" target="1.5" />
       <module name="iotend-oauth-biz" target="1.5" />
       <module name="iotend-server" target="1.5" />
-      <module name="iotend-swagger2-starter" target="1.5" />
+      <module name="iotend-swagger2-starter" target="8" />
       <module name="iotend-utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-commons/iotend-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-jwt-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-jwt-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-commons/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-commons/src/main/resources" charset="UTF-8" />
   </component>
 </project>
