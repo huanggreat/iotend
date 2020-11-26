@@ -13,38 +13,37 @@
 
     <modules>
         <module>iotend-core</module>
-        <module>iotend-dependencies</module>
+        <module>iotend-jwt-starter</module>
     </modules>
 
     <dependencies>
-        <dependency>
-            <groupId>com.iotend</groupId>
-            <artifactId>iotend-dependencies</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
         <!--Lombok-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
+            <version>5.4.2</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
+            <version>1.2.73</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
+            <version>22.0</version>
         </dependency>
     </dependencies>
 
