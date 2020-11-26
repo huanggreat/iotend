@@ -14,6 +14,7 @@
     <modules>
         <module>iotend-core</module>
         <module>iotend-jwt-starter</module>
+        <module>iotend-swagger2-starter</module>
     </modules>
 
     <dependencies>
@@ -44,6 +45,11 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>22.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.3.5.RELEASE</version>
         </dependency>
     </dependencies>
 
