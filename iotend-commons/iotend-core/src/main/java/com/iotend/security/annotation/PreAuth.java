@@ -7,9 +7,9 @@ import java.lang.annotation.*;
  *
  * 注意事项：
  * 1. 开启URI权限时，必须启动Oauth服务
- * 2. 通过swagger直接通过后台服务(如：zuihou-authority-server、zuihou-file-server)调试时，必须在请求头中传递 userid 参数。 否则会提示 无权限
- * 3. 通过swagger直接通过网关服务(如：zuihou-gateway-server、zuihou-zuul-server)调试时，必须在请求头中传递 token 参数 （因为token中含有userid，在网关会将userid解析出来封装到请求头）。否则会提示 无权限。
- * 4. 本地调试时，可以通过全局配置禁用整个服务的 URI权限 校验：zuihou.security.enabled = false
+ * 2. 通过swagger直接通过后台服务(如：iotend-authority-server、iotend-file-server)调试时，必须在请求头中传递 userid 参数。 否则会提示 无权限
+ * 3. 通过swagger直接通过网关服务(如：iotend-gateway-server、iotend-zuul-server)调试时，必须在请求头中传递 token 参数 （因为token中含有userid，在网关会将userid解析出来封装到请求头）。否则会提示 无权限。
+ * 4. 本地调试时，可以通过全局配置禁用整个服务的 URI权限 校验：iotend.security.enabled = false
  * 5. 本地调试时，@PreAuth(enabled=false) 禁用单个 Controller 类的URI权限
  *
  * <p>

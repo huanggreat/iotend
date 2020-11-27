@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
 /**
  * swagger 包扫描配置
  *
- * @author zuihou
+ * @author iotend
  * @date 2018/11/18 9:22
  */
 @Import({

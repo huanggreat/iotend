@@ -14,7 +14,7 @@ import static com.iotend.swagger2.SwaggerProperties.PREFIX;
  * swagger2 属性配置
  * 必须配置 prefix ，才能有提示
  *
- * @author zuihou
+ * @author iotend
  * @date 2018/11/18 9:17
  */
 @Data

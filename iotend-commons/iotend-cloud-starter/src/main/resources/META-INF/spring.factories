@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.iotend.cloud.OpenFeignAutoConfiguration , \
+    com.iotend.cloud.RibbonMetaFilterAutoConfiguration, \
+    com.iotend.cloud.RestTemplateConfiguration

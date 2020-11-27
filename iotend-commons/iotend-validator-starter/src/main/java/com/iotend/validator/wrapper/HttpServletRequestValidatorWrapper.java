@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequestWrapper;
 /**
  * 验证请求包装器
  *
- * @author zuihou
+ * @author iotend
  * @date 2019-07-12 14:31
  */
 public class HttpServletRequestValidatorWrapper extends HttpServletRequestWrapper {
