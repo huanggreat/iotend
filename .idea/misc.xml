@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/iotend-oauth/pom.xml" />
         <option value="$PROJECT_DIR$/iotend-commons/pom.xml" />
         <option value="$PROJECT_DIR$/iotend-commons/iotend-xss-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-admin-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-sboot/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-biz/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-entity/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -12,7 +12,7 @@
         <module name="iotend-cloud-starter" />
         <module name="iotend-core" />
         <module name="iotend-injection-starter" />
-        <module name="iotend-oauth-biz" />
+        <module name="iotend-sboot-authority-controller" />
         <module name="iotend-j2cache-starter" />
         <module name="iotend-mqtt-emqx" />
         <module name="iotend-validator-starter" />
@@ -22,15 +22,19 @@
         <module name="iotend-mq-starter" />
         <module name="iotend-xss-starter" />
         <module name="iotend-log-starter" />
-        <module name="iotend-authority-biz" />
+        <module name="iotend-sboot-authority-biz" />
+        <module name="iotend-sboot-authority-entity" />
         <module name="iotend-jwt-starter" />
         <module name="iotend-dozer-starter" />
         <module name="iotend-swagger2-starter" />
+        <module name="iotend-sboot-authority-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="iotend-admin-boot" target="1.5" />
       <module name="iotend-authority" target="1.5" />
       <module name="iotend-authority-biz" target="1.5" />
+      <module name="iotend-authority-entity" target="1.5" />
       <module name="iotend-boot" target="8" />
       <module name="iotend-cache-starter" target="8" />
       <module name="iotend-client" target="1.5" />
@@ -51,6 +55,12 @@
       <module name="iotend-mqtt-emqx" target="1.5" />
       <module name="iotend-oauth" target="1.5" />
       <module name="iotend-oauth-biz" target="1.5" />
+      <module name="iotend-sboot" target="1.5" />
+      <module name="iotend-sboot-authority" target="1.5" />
+      <module name="iotend-sboot-authority-biz" target="1.5" />
+      <module name="iotend-sboot-authority-controller" target="1.5" />
+      <module name="iotend-sboot-authority-entity" target="8" />
+      <module name="iotend-sboot-authority-server" target="1.5" />
       <module name="iotend-security-starter" target="8" />
       <module name="iotend-server" target="1.5" />
       <module name="iotend-swagger2-starter" target="8" />

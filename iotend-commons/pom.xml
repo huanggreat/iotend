@@ -19,7 +19,6 @@
         <module>iotend-uid</module>
         <module>iotend-security-starter</module>
         <module>iotend-mq-starter</module>
-        <module>iotend-xxs-starter</module>
         <module>iotend-log-starter</module>
         <module>iotend-j2cache-starter</module>
         <module>iotend-injection-starter</module>
