@@ -12,36 +12,38 @@
         <module name="iotend-cloud-starter" />
         <module name="iotend-core" />
         <module name="iotend-injection-starter" />
-        <module name="iotend-sboot-authority-controller" />
         <module name="iotend-j2cache-starter" />
         <module name="iotend-mqtt-emqx" />
         <module name="iotend-validator-starter" />
         <module name="iotend-boot" />
+        <module name="iotend-authority-controller" />
         <module name="iotend-databases" />
         <module name="iotend-security-starter" />
         <module name="iotend-mq-starter" />
         <module name="iotend-xss-starter" />
         <module name="iotend-log-starter" />
-        <module name="iotend-sboot-authority-biz" />
-        <module name="iotend-sboot-authority-entity" />
+        <module name="iotend-authority-biz" />
+        <module name="iotend-authority-server" />
         <module name="iotend-jwt-starter" />
         <module name="iotend-dozer-starter" />
+        <module name="iotend-authority-entity" />
         <module name="iotend-swagger2-starter" />
-        <module name="iotend-sboot-authority-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="iotend-admin-boot" target="1.5" />
       <module name="iotend-authority" target="1.5" />
-      <module name="iotend-authority-biz" target="1.5" />
-      <module name="iotend-authority-entity" target="1.5" />
+      <module name="iotend-authority-biz" target="8" />
+      <module name="iotend-authority-controller" target="1.8" />
+      <module name="iotend-authority-entity" target="8" />
+      <module name="iotend-authority-server" target="1.8" />
       <module name="iotend-boot" target="8" />
-      <module name="iotend-cache-starter" target="8" />
+      <module name="iotend-cache-starter" target="1.8" />
       <module name="iotend-client" target="1.5" />
       <module name="iotend-cloud-starter" target="8" />
-      <module name="iotend-common" target="1.5" />
-      <module name="iotend-commons" target="1.5" />
-      <module name="iotend-core" target="8" />
+      <module name="iotend-common" target="1.8" />
+      <module name="iotend-commons" target="1.8" />
+      <module name="iotend-core" target="1.8" />
       <module name="iotend-databases" target="8" />
       <module name="iotend-demo" target="8" />
       <module name="iotend-dependencies" target="1.5" />
@@ -50,11 +52,12 @@
       <module name="iotend-j2cache-starter" target="8" />
       <module name="iotend-jwt-starter" target="8" />
       <module name="iotend-log-starter" target="8" />
-      <module name="iotend-mq-starter" target="1.5" />
+      <module name="iotend-mq-starter" target="1.8" />
       <module name="iotend-mqtt" target="1.5" />
       <module name="iotend-mqtt-emqx" target="1.5" />
       <module name="iotend-oauth" target="1.5" />
       <module name="iotend-oauth-biz" target="1.5" />
+      <module name="iotend-public" target="1.5" />
       <module name="iotend-sboot" target="1.5" />
       <module name="iotend-sboot-authority" target="1.5" />
       <module name="iotend-sboot-authority-biz" target="1.5" />

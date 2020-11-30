@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>iotend-sboot</artifactId>
+        <groupId>com.iotend</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>iotend-authority-entity</artifactId>
+    <name>${project.artifactId}</name>
+    <description>权限服务实体模块</description>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <cn.afterturn.version>4.2.0</cn.afterturn.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-common</artifactId>
+            <version>${iotend.version}</version>
+        </dependency>
+        <!-- databases 只有权限服务需要引用， 其他服务放在server模块 -->
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-databases</artifactId>
+            <version>${iotend.version}</version>
+            <optional>true</optional>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-injection-starter</artifactId>
+            <version>${iotend.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-annotation</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-annotation</artifactId>
+            <version>${cn.afterturn.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-base</artifactId>
+            <version>${cn.afterturn.version}</version>
+        </dependency>
+    </dependencies>
+</project>

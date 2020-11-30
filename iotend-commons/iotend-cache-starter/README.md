@@ -20,7 +20,7 @@
 ```
 pom.xml
 <dependency>
-    <groupId>com.github.zuihou</groupId>
+    <groupId>com.iotend</groupId>
     <artifactId>zuihou-cache-starter</artifactId>
 </dependency>
 
@@ -37,7 +37,7 @@ zuihou:
 ```
 pom.xml
 <dependency>
-    <groupId>com.github.zuihou</groupId>
+    <groupId>com.iotend</groupId>
     <artifactId>zuihou-cache-starter</artifactId>
     <exclusions>
         <exclusion>

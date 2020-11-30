@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/iotend.iml" filepath="$PROJECT_DIR$/.idea/iotend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-biz/iotend-authority-biz.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-authority-biz/iotend-authority-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-controller/iotend-authority-controller.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-authority-controller/iotend-authority-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-entity/iotend-authority-entity.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-authority-entity/iotend-authority-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-server/iotend-authority-server.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-authority-server/iotend-authority-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-boot/iotend-boot.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-boot/iotend-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-cache-starter/iotend-cache-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-cache-starter/iotend-cache-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-cloud-starter/iotend-cloud-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-cloud-starter/iotend-cloud-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-common/iotend-common.iml" filepath="$PROJECT_DIR$/iotend-common/iotend-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-commons.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-core/iotend-core.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-core/iotend-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-databases/iotend-databases.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-databases/iotend-databases.iml" />
@@ -17,11 +22,6 @@
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-mq-starter/iotend-mq-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-mq-starter/iotend-mq-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" filepath="$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-sboot.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-sboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-biz/iotend-sboot-authority-biz.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-biz/iotend-sboot-authority-biz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-controller/iotend-sboot-authority-controller.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-controller/iotend-sboot-authority-controller.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-entity/iotend-sboot-authority-entity.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-entity/iotend-sboot-authority-entity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-server/iotend-sboot-authority-server.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-server/iotend-sboot-authority-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-security-starter/iotend-security-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-security-starter/iotend-security-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/iotend-swagger2-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/iotend-swagger2-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-uid/iotend-uid.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-uid/iotend-uid.iml" />

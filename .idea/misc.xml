@@ -12,11 +12,14 @@
         <option value="$PROJECT_DIR$/iotend-sboot/pom.xml" />
         <option value="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-biz/pom.xml" />
         <option value="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/iotend-sboot-authority-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-public/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-common/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/iotend-commons/iotend-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/iotend-sboot/iotend-sboot-authority/pom.xml" />
       </set>
     </option>
   </component>

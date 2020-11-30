@@ -34,7 +34,7 @@ import java.util.Map;
  *
  * @param <Entity>  实体
  * @param <PageDTO> 分页查询参数
- * @author zuihou
+ * @author huang
  * @date 2020年03月07日22:02:06
  */
 public interface PoiController<Entity, PageDTO> extends PageController<Entity, PageDTO> {
