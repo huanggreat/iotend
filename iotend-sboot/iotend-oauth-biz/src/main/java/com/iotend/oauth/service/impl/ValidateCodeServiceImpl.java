@@ -25,7 +25,7 @@ import static com.iotend.exception.code.ExceptionCode.CAPTCHA_ERROR;
 /**
  * 验证码服务
  *
- * @author zuihou
+ * @author huang
  */
 @Service
 public class ValidateCodeServiceImpl implements ValidateCodeService {

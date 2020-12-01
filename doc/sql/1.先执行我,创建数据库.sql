@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS `iotend_defaults` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS `iotend_boot_0000` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS `iotend_column` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;

@@ -7,7 +7,7 @@ import lombok.Data;
 /**
  * 文件查询 DO
  *
- * @author zuihou
+ * @author huang
  * @date 2019/05/07
  */
 @Data

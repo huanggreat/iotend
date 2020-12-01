@@ -16,7 +16,7 @@ import java.util.List;
  * 文件表
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-06-24
  */
 @Repository
@@ -27,7 +27,7 @@ public interface FileMapper extends SuperMapper<File> {
      * @param userId
      * @param ids
      * @return
-     * @author zuihou
+     * @author huang
      * @date 2019-05-07 20:49
      */
     List<FileQueryDO> findByIds(@Param("userId") Long userId, @Param("ids") Long[] ids);

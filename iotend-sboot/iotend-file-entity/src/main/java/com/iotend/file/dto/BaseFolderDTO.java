@@ -8,7 +8,7 @@ import javax.validation.constraints.NotEmpty;
 /**
  * 文件夹基础DTO
  *
- * @author zuihou
+ * @author huang
  * @date 2019-04-29
  */
 @Data

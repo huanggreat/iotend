@@ -8,7 +8,6 @@
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-cloud-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-cloud-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-commons/iotend-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-databases/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-databases/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-dozer-starter/src/main/java" charset="UTF-8" />
@@ -32,31 +31,18 @@
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-validator-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-xss-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-commons/iotend-xss-starter/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-commons/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-commons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-biz/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-biz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-controller/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-controller/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-entity/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-entity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-authority-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-file-biz/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-file-biz/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-file-controller/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-file-controller/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-file-entity/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-file-entity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-oauth-biz/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-oauth-biz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-oauth-controller/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-oauth-controller/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-biz/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-biz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-controller/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-controller/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-entity/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-entity/src/main/resources" charset="UTF-8" />
   </component>
 </project>

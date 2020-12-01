@@ -31,7 +31,7 @@ import java.util.concurrent.locks.Lock;
 /**
  * 文件分片处理 抽象策略类
  *
- * @author zuihou
+ * @author huang
  * @date 2019/06/19
  */
 @Slf4j

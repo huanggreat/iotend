@@ -138,7 +138,7 @@ public class ColumnInitSystemStrategy implements InitSystemStrategy {
 
     private boolean initApplication() {
         List<Application> list = new ArrayList<>();
-        list.add(Application.builder().clientId("zuihou_ui").clientSecret("zuihou_ui_secret").website("http://tangyh.top:10000/zuihou-ui/").name("SaaS微服务管理后台").appType(ApplicationAppTypeEnum.PC).status(true).build());
+        list.add(Application.builder().clientId("zuiihou_ui").clientSecret("zuihou_ui_secret").website("http://tangyh.top:10000/zuihou-ui/").name("SaaS微服务管理后台").appType(ApplicationAppTypeEnum.PC).status(true).build());
         list.add(Application.builder().clientId("zuihou_admin_ui").clientSecret("zuihou_admin_ui_secret").website("http://tangyh.top:180/zuihou-admin-ui/").name("SaaS微服务管理后台").appType(ApplicationAppTypeEnum.PC).status(true).build());
         return applicationService.saveBatch(list);
     }

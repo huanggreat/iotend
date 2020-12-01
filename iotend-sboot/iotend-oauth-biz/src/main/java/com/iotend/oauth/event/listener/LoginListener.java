@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 /**
  * 登录事件监听，用于记录登录日志
  *
- * @author zuihou
+ * @author huang
  * @date 2020年03月18日17:39:59
  */
 @Component

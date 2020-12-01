@@ -13,14 +13,14 @@ import java.io.File;
 
 
 /**
- * @author zuihou
+ * @author huang
  */
 @Setter
 @Getter
 @ConfigurationProperties(prefix = FileServerProperties.PREFIX)
 @RefreshScope
 public class FileServerProperties {
-    public static final String PREFIX = "zuihou.file";
+    public static final String PREFIX = "iotend.file";
     /**
      * 为以下3个值，指定不同的自动化配置
      * qiniu：七牛oss

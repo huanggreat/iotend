@@ -16,6 +16,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.baomidou:mybatis-plus-annotation:3.4.0" level="project" />
     <orderEntry type="module" module-name="iotend-core" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.github.xiaoymin:knife4j-annotations:2.0.5" level="project" />

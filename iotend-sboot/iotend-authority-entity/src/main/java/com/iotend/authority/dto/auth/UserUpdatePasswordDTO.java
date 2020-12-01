@@ -60,6 +60,6 @@ public class UserUpdatePasswordDTO implements Serializable {
     /**
      * 租户编码
      */
-    @ApiModelProperty(value = "租户编码，zuihou-admin-ui页面使用")
+    @ApiModelProperty(value = "租户编码，iotend-admin-ui页面使用")
     private String tenantCode;
 }

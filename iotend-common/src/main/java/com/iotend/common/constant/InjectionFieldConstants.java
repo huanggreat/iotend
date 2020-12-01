@@ -14,7 +14,7 @@ public abstract class InjectionFieldConstants {
      * 数据字典项 feign查询类 切记，一定要在 DictionaryItemApi 上面添加属性：
      * qualifier="dictionaryItemApi"
      * <p>
-     * 如： @FeignClient(name = "${zuihou.feign.authority-server:zuihou-authority-server}", path = "dictionaryItem",
+     * 如： @FeignClient(name = "${iotend.feign.authority-server:iotend-authority-server}", path = "dictionaryItem",
      * qualifier = "dictionaryItemApi", fallback = DictionaryItemApiFallback.class)
      */
     public static final String DICTIONARY_ITEM_FEIGN_CLASS = "dictionaryItemApi";

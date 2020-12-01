@@ -7,5 +7,5 @@ spring:
     active: dev
 logging:
   file:
-    path: /data/projects/logs
+    path: /Users/huangdachui/logs
     name: ${logging.file.path}/${spring.application.name}/root.log

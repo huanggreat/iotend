@@ -23,7 +23,7 @@ import java.io.Serializable;
 /**
  * 登录状态DTO
  *
- * @author zuihou
+ * @author huang
  * @date 2020年03月18日17:25:44
  */
 @Data

@@ -1,10 +1,10 @@
-## zuihou-cache-starter
+## iotend-cache-starter
 
 将分布式缓存redis 和 内存caffeine 的一些基本方法抽象出来，达到只有切换的目的。业务系统使用时，注入 CacheRepository 类即可。
 但这样做又有几个缺陷： redis 的一些特殊方法将无法使用(如： list、set、hash)。
 
 ### 要用Redis的特有方法怎么办？
-配置文件配置zuihou.cache.type=redis后，注入 RedisRepositoryImpl 或者 RedisTemplate， 但必须保证系统每次启动都依赖redis即可。
+配置文件配置iotend.cache.type=redis后，注入 RedisRepositoryImpl 或者 RedisTemplate， 但必须保证系统每次启动都依赖redis即可。
 
 
 ###为啥要抽象？
@@ -21,11 +21,11 @@
 pom.xml
 <dependency>
     <groupId>com.iotend</groupId>
-    <artifactId>zuihou-cache-starter</artifactId>
+    <artifactId>iotend-cache-starter</artifactId>
 </dependency>
 
 application.yml
-zuihou:
+iotend:
   ip:
     redis: 127.0.0.1
   port:
@@ -38,7 +38,7 @@ zuihou:
 pom.xml
 <dependency>
     <groupId>com.iotend</groupId>
-    <artifactId>zuihou-cache-starter</artifactId>
+    <artifactId>iotend-cache-starter</artifactId>
     <exclusions>
         <exclusion>
             <groupId>org.springframework.boot</groupId>
@@ -48,7 +48,7 @@ pom.xml
 </dependency>
 
 application.yml
-zuihou:
+iotend:
   cache:
     type: CAFFEINE
 ```

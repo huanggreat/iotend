@@ -10,7 +10,7 @@ import static com.iotend.oauth.granter.PasswordTokenGranter.GRANT_TYPE;
 /**
  * 账号密码登录获取token
  *
- * @author zuihou
+ * @author huang
  * @date 2020年03月31日10:22:55
  */
 @Component(PasswordTokenGranter.GRANT_TYPE)

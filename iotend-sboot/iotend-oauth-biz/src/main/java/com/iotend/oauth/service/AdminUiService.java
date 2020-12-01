@@ -22,7 +22,7 @@ import org.springframework.stereotype.Service;
 import static com.iotend.context.BaseContextConstants.BASIC_HEADER_KEY;
 
 /**
- * @author zuihou
+ * @author huang
  * @createTime 2017-12-15 13:42
  */
 @Service

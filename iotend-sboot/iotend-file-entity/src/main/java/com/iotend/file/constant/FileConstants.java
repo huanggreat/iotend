@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 文件表
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-05-20
  */
 public class FileConstants implements Serializable {

@@ -21,7 +21,7 @@ import java.util.List;
  * 文件表
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-06-24
  */
 public interface FileService extends SuperService<File> {

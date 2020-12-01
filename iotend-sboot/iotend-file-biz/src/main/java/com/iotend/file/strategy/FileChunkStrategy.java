@@ -8,7 +8,7 @@ import com.iotend.file.entity.File;
 /**
  * 文件分片处理策略类
  *
- * @author zuihou
+ * @author huang
  * @date 2019/06/19
  */
 public interface FileChunkStrategy {

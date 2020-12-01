@@ -48,7 +48,7 @@ import static com.iotend.utils.DateUtils.DEFAULT_MONTH_FORMAT_SLASH;
 /**
  * 阿里OSS
  *
- * @author zuihou
+ * @author huang
  * @date 2019/08/09
  */
 @EnableConfigurationProperties(FileServerProperties.class)

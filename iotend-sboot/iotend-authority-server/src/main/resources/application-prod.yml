@@ -11,13 +11,13 @@ iotend:
     enabled: true
     ip: 127.0.0.1
     port: 5672
-    username: zuihou
-    password: zuihou
+    username: iotend
+    password: iotend
   mysql:
     ip: 127.0.0.1
     port: 3218
     driverClassName: com.mysql.cj.jdbc.Driver
-    database: zuihou_defaults
+    database: iotend_defaults
     username: root
     password: ZHadmin123.
   database:

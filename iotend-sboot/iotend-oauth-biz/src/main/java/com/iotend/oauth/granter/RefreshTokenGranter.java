@@ -18,7 +18,7 @@ import static com.iotend.oauth.granter.RefreshTokenGranter.GRANT_TYPE;
 /**
  * RefreshTokenGranter
  *
- * @author zuihou
+ * @author huang
  * @date 2020年03月31日10:23:53
  */
 @Component(RefreshTokenGranter.GRANT_TYPE)

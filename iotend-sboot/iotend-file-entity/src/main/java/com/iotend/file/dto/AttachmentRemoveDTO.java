@@ -11,7 +11,7 @@ import java.io.Serializable;
  * 删除实体
  *
  * @param
- * @author zuihou
+ * @author huang
  * @date 2019-05-12 18:49
  * @return
  */

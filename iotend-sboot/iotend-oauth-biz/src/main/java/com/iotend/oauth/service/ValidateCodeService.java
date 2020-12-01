@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * 验证码
  *
- * @author zuihou
+ * @author huang
  * @date 2019-10-18 17:22
  */
 public interface ValidateCodeService {

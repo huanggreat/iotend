@@ -16,7 +16,7 @@ import java.io.Serializable;
  * 附件表
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2019-05-20
  */
 @Data

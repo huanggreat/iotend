@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * 根据类型识别工具
  *
- * @author zuihou
+ * @author huang
  * @date 2019-05-06
  */
 @Slf4j
@@ -30,7 +30,7 @@ public class FileDataTypeUtil {
      *
      * @param
      * @return
-     * @author zuihou
+     * @author huang
      * @date 2019-05-06 13:41
      */
     public static DataType getDataType(String mime) {

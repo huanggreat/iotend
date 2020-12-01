@@ -42,7 +42,7 @@ import static com.iotend.utils.StrPool.DEF_PARENT_ID;
  * 资源 角色 菜单
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-22
  */
 @Slf4j
@@ -144,7 +144,7 @@ public class OauthMenuResourceController {
 
         VueRouter tenant = new VueRouter();
         tenant.setPath("/defaults/tenant");
-        tenant.setComponent("zuihou/defaults/tenant/Index");
+        tenant.setComponent("iotend/defaults/tenant/Index");
         tenant.setHidden(false);
         // 没有name ，刷新页面后，切换菜单会报错：
         // [Vue warn]: Error in nextTick: "TypeError: undefined is not iterable (cannot read property Symbol(Symbol.iterator))"
@@ -161,7 +161,7 @@ public class OauthMenuResourceController {
 
         VueRouter globalUser = new VueRouter();
         globalUser.setPath("/defaults/globaluser");
-        globalUser.setComponent("zuihou/defaults/globaluser/Index");
+        globalUser.setComponent("iotend/defaults/globaluser/Index");
         globalUser.setName("运营用户");
         globalUser.setHidden(false);
         globalUser.setMeta(RouterMeta.builder()

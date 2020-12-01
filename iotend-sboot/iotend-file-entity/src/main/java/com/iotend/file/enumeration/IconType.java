@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 /**
  * 图标 常量
  *
- * @author zuihou
+ * @author huang
  * @date 2019-06-12
  */
 @AllArgsConstructor

@@ -39,7 +39,7 @@ import static com.iotend.utils.DateUtils.DEFAULT_MONTH_FORMAT_SLASH;
 /**
  * 本地上传配置
  *
- * @author zuihou
+ * @author huang
  * @date 2019/06/18
  */
 

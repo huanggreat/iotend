@@ -8,7 +8,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author zuihou
+ * @author huang
  * @create 2018-09-06 10:10
  * @desc 文件类型数量、
  * @Version 1.0

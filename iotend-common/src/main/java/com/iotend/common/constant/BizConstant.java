@@ -50,11 +50,11 @@ public interface BizConstant {
     /**
      * 基础库
      */
-    String BASE_DATABASE = "zuihou_boot";
+    String BASE_DATABASE = "iotend_boot";
     /**
      * 扩展库
      */
-    String EXTEND_DATABASE = "zuihou_extend";
+    String EXTEND_DATABASE = "iotend_extend";
 
     /**
      * 被T

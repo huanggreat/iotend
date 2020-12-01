@@ -22,7 +22,7 @@ import static com.iotend.exception.code.ExceptionCode.BASE_VALID_PARAM;
 /**
  * 文件抽象策略 处理类
  *
- * @author zuihou
+ * @author huang
  * @date 2019/06/17
  */
 @Slf4j
@@ -100,7 +100,7 @@ public abstract class AbstractFileStrategy implements FileStrategy {
      *
      * @param list
      * @param file
-     * @author zuihou
+     * @author huang
      * @date 2019-05-07
      */
     protected abstract void delete(List<FileDeleteDO> list, FileDeleteDO file);

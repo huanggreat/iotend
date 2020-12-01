@@ -8,7 +8,7 @@ import lombok.ToString;
 /**
  * 封建分片合并DTO
  *
- * @author zuihou
+ * @author huang
  * @date 2018/08/28
  */
 @Data

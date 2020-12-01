@@ -8,7 +8,7 @@ import com.iotend.jwt.model.AuthInfo;
 /**
  * 授权认证统一接口.
  *
- * @author zuihou
+ * @author huang
  * @date 2020年03月31日10:21:21
  */
 public interface TokenGranter {

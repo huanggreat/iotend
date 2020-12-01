@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 文件 按时间线统计数量和大小的 DTO
  *
- * @author zuihou
+ * @author huang
  * @date 2019/05/08
  */
 @Data

@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 /**
  * FastDFS配置
  *
- * @author zuihou
+ * @author huang
  */
 @EnableConfigurationProperties(FileServerProperties.class)
 @Configuration
