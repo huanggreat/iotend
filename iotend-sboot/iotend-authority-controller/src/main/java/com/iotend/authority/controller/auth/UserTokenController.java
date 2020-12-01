@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  * token
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2020-04-02
  */
 @Slf4j

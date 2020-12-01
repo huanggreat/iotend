@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 创建抽象策略角色 主要作用 数据权限范围使用
  *
- * @author zuihou
+ * @author huang
  * @version 1.0
  * @date 2019-06-08 15:45
  */

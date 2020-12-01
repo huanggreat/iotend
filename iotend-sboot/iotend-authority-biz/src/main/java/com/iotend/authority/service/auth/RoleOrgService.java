@@ -11,7 +11,7 @@ import java.util.List;
  * 角色组织关系
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 public interface RoleOrgService extends SuperService<RoleOrg> {

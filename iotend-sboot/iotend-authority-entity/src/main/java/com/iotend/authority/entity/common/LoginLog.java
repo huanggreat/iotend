@@ -22,7 +22,7 @@ import static com.iotend.utils.DateUtils.DEFAULT_DATE_TIME_FORMAT;
  * 登录日志
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2019-11-01
  */
 @Data

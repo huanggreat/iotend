@@ -6,14 +6,31 @@
         <artifactId>iotend-sboot</artifactId>
         <groupId>com.iotend</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>iotend-authority-server</artifactId>
     <name>${project.artifactId}</name>
     <description>权限认证服务启动模块</description>
+    <properties>
+        <org.springframework.boot.version>2.2.9.RELEASE</org.springframework.boot.version>
+    </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-authority-controller</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-oauth-controller</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-file-controller</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--other-->
         <dependency>
             <groupId>com.iotend</groupId>
             <artifactId>iotend-security-starter</artifactId>
@@ -26,18 +43,42 @@
         </dependency>
         <dependency>
             <groupId>com.iotend</groupId>
-            <artifactId>iotend-common</artifactId>
+            <artifactId>iotend-authority-biz</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-swagger2-starter</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.iotend</groupId>
-            <artifactId>iotend-authority-biz</artifactId>
+            <artifactId>iotend-jwt-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-j2cache-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-xss-starter</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>com.iotend</groupId>
+            <artifactId>iotend-mq-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.2.9.RELEASE</version>
+            <version>${org.springframework.boot.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.tomcat.embed</groupId>
@@ -48,6 +89,52 @@
                     <artifactId>spring-boot-starter-tomcat</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+            <version>${org.springframework.boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+            <version>${org.springframework.boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <version>${org.springframework.boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-spring-boot-starter</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${org.springframework.boot.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -81,4 +168,5 @@
 
         </plugins>
     </build>
+
 </project>

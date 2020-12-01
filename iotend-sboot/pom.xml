@@ -13,6 +13,14 @@
         <module>iotend-authority-biz</module>
         <module>iotend-authority-controller</module>
         <module>iotend-authority-server</module>
+        <module>iotend-oauth-biz</module>
+        <module>iotend-tenant-biz</module>
+        <module>iotend-tenant-entity</module>
+        <module>iotend-tenant-controller</module>
+        <module>iotend-oauth-controller</module>
+        <module>iotend-file-entity</module>
+        <module>iotend-file-biz</module>
+        <module>iotend-file-controller</module>
     </modules>
 
     <properties>

@@ -2,8 +2,12 @@ package com.iotend.common.constant;
 
 /**
  * 全局参数表（c_common_parameter）的key
- * */
+ *
+ * @author huang
+ * @date 2020年04月02日22:37:05
+ */
 public interface ParameterKey {
+
     String LOGIN_POLICY = "LOGIN_POLICY";
 
     enum LoginPolicy {

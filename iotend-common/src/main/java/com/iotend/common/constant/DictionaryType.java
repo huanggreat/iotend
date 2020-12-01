@@ -1,9 +1,10 @@
 package com.iotend.common.constant;
 
 /**
- * @description:存放系统中常用的类型
- * @author: huang
- * @create: 2020-11-30 13:27
+ * 存放系统中常用的类型
+ *
+ * @author huang
+ * @date 2019/07/26
  */
 public class DictionaryType {
     /**
@@ -32,4 +33,5 @@ public class DictionaryType {
 
     private DictionaryType() {
     }
+
 }

@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 字典项
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-22
  */
 @Slf4j

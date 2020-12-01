@@ -23,7 +23,7 @@
     </build>
 
     <properties>
-        <spring.sf>5.2.11.RELEASE</spring.sf>
+        <spring.sf>5.2.8.RELEASE</spring.sf>
     </properties>
 
     <dependencies>
@@ -63,7 +63,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-annotation</artifactId>
-            <version>3.4.1</version>
+            <version>${mybatisplus.version}</version>
         </dependency>
         <!-- Apache Commons -->
         <dependency>

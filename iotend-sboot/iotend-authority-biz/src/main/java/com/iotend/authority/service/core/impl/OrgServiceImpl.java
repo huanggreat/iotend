@@ -30,7 +30,7 @@ import static com.iotend.common.constant.CacheKey.ORG;
  * 组织
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-22
  */
 @Slf4j

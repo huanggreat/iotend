@@ -4,8 +4,9 @@ package com.iotend.common.constant;
  * 仅仅用于记录 RemoteField 注解相关的 接口和方法名称
  * <p>
  * 切记，该类下的接口和方法，一定要自己手动创建，否则会注入失败
- * @author: huang
- * @create: 2020-11-30 13:27
+ *
+ * @author huang
+ * @date 2020年01月20日11:16:37
  */
 public abstract class InjectionFieldConstants {
 
@@ -13,7 +14,7 @@ public abstract class InjectionFieldConstants {
      * 数据字典项 feign查询类 切记，一定要在 DictionaryItemApi 上面添加属性：
      * qualifier="dictionaryItemApi"
      * <p>
-     * 如： @FeignClient(name = "${iotend.feign.authority-server:iotend-authority-server}", path = "dictionaryItem",
+     * 如： @FeignClient(name = "${zuihou.feign.authority-server:zuihou-authority-server}", path = "dictionaryItem",
      * qualifier = "dictionaryItemApi", fallback = DictionaryItemApiFallback.class)
      */
     public static final String DICTIONARY_ITEM_FEIGN_CLASS = "dictionaryItemApi";
@@ -74,4 +75,3 @@ public abstract class InjectionFieldConstants {
     public static final String STATION_ID_METHOD = "findStationByIds";
     public static final String STATION_ID_NAME_METHOD = "findStationNameByIds";
 }
-

@@ -48,7 +48,7 @@ public class SwaggerProperties {
     /**
      * 描述
      **/
-    private String description = "iotend 在线文档";
+    private String description = "线文档";
     /**
      * 版本
      **/
@@ -180,7 +180,7 @@ public class SwaggerProperties {
         /**
          * 描述
          **/
-        private String description = "iotend 在线文档";
+        private String description = "在线文档";
         /**
          * 版本
          **/

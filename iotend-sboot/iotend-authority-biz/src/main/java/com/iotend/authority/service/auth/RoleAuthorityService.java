@@ -13,7 +13,7 @@ import java.util.List;
  * 角色的资源
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 public interface RoleAuthorityService extends SuperService<RoleAuthority> {

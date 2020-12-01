@@ -10,7 +10,7 @@ import com.iotend.base.service.SuperService;
  * 账号角色绑定
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 public interface UserRoleService extends SuperService<UserRole> {

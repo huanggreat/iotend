@@ -14,7 +14,7 @@ import java.util.Map;
  *
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-10-20
  */
 public interface LoginLogService extends SuperService<LoginLog> {

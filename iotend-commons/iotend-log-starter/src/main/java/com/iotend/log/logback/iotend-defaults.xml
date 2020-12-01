@@ -94,7 +94,7 @@
         <appender-ref ref="ROOT_APPENDER"/>
     </appender>
 
-    <!-- 整个项目com.github.iotend包下的的所有日志， 不包括第三方包 -->
+    <!-- 整个项目com.iotend包下的的所有日志， 不包括第三方包 -->
     <appender name="PROJECT_APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${log.path}/${spring.application.name}/project.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
@@ -245,10 +245,10 @@
             <appender-ref ref="ASYNC_ROOT_APPENDER"/>
             <appender-ref ref="ASYNC_CONSOLE_APPENDER"/>
         </root>
-        <logger name="com.github.iotend" additivity="true" level="${log.level.console}">
+        <logger name="com.iotend" additivity="true" level="${log.level.console}">
             <appender-ref ref="ASYNC_PROJECT_APPENDER"/>
         </logger>
-        <logger name="com.github.iotend.boot.handler" additivity="true" level="${log.level.console}">
+        <logger name="com.iotend.boot.handler" additivity="true" level="${log.level.console}">
             <appender-ref ref="ASYNC_EXCEPTION_APPENDER"/>
         </logger>
 
@@ -263,7 +263,7 @@
         <logger name="com.alibaba.nacos.client.naming" level="${log.level.nacos}" additivity="false">
             <appender-ref ref="ASYNC_THIRD_PARTY_APPENDER"/>
         </logger>
-        <logger name="com.github.iotend.log.monitor" level="debug" addtivity="false">
+        <logger name="com.iotend.log.monitor" level="debug" addtivity="false">
             <appender-ref ref="ASYNC_POINT_LOG_APPENDER"/>
         </logger>
     </springProfile>
@@ -273,10 +273,10 @@
             <appender-ref ref="CONSOLE_APPENDER"/>
             <appender-ref ref="ROOT_APPENDER"/>
         </root>
-        <logger name="com.github.iotend" additivity="true" level="${log.level.console}">
+        <logger name="com.iotend" additivity="true" level="${log.level.console}">
             <appender-ref ref="PROJECT_APPENDER"/>
         </logger>
-        <logger name="com.github.iotend.boot.handler" additivity="true" level="${log.level.console}">
+        <logger name="com.iotend.boot.handler" additivity="true" level="${log.level.console}">
             <appender-ref ref="EXCEPTION_APPENDER"/>
         </logger>
 
@@ -296,7 +296,7 @@
             <appender-ref ref="THIRD_PARTY_APPENDER"/>
         </logger>
 
-        <logger name="com.github.iotend.log.monitor" level="debug" addtivity="false">
+        <logger name="com.iotend.log.monitor" level="debug" addtivity="false">
             <appender-ref ref="POINT_LOG_APPENDER"/>
         </logger>
     </springProfile>

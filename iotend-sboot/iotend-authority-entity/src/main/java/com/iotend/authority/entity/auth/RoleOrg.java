@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  * 角色组织关系
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2019-10-20
  */
 @Data

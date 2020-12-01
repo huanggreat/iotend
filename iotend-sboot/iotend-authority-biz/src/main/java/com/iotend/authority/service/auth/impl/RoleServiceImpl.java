@@ -39,7 +39,7 @@ import static com.iotend.common.constant.CacheKey.ROLE;
  * 角色
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 @Slf4j

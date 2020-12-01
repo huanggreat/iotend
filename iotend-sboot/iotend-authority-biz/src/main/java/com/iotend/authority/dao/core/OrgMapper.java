@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * 组织
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-22
  */
 @Repository

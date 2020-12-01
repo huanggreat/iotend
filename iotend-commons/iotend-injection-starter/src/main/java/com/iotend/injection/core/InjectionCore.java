@@ -193,7 +193,7 @@ public class InjectionCore {
                 "java.lang.Short".equals(typeName) ||
                 "java.lang.Boolean".equals(typeName) ||
                 "java.lang.String".equals(typeName) ||
-                "com.github.iotend.model.RemoteData".equals(typeName);
+                "com.iotend.model.RemoteData".equals(typeName);
         return isBaseType;
     }
 

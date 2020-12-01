@@ -3,7 +3,6 @@ package com.iotend.uid.dao;
 import com.baidu.fsg.uid.worker.entity.WorkerNodeEntity;
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 /**

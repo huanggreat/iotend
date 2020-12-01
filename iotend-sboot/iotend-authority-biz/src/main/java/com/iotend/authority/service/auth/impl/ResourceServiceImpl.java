@@ -32,7 +32,7 @@ import static com.iotend.common.constant.CacheKey.RESOURCE;
  * 资源
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 @Slf4j

@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
  * 角色的资源
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 @Slf4j

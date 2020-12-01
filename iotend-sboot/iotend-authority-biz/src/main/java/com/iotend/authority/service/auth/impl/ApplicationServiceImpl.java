@@ -19,7 +19,7 @@ import static com.iotend.common.constant.CacheKey.*;
  * 应用
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-12-15
  */
 @Slf4j

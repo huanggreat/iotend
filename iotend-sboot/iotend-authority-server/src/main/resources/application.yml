@@ -5,7 +5,7 @@ iotend:
   redis:
     ip: 127.0.0.1
     port: 6379
-    password: 123456
+    password: sa123456
     database: 0
   rabbitmq:
     enabled: false
@@ -226,8 +226,8 @@ spring:
         enabled: true
         url-pattern: /druid/*   #根据配置中的url-pattern来访问内置监控页面，如果是上面的配置，内置监控页面的首页是/druid/index.html例如：http://127.0.0.1:9000/druid/index.html
         reset-enable: true    #允许清空统计数据
-        login-username: zuihou
-        login-password: zuihou
+        login-username: iotend
+        login-password: iotend
 
 mybatis-plus:
   mapper-locations:

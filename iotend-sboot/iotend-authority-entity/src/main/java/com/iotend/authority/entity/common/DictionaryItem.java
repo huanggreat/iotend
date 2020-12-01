@@ -22,7 +22,7 @@ import static com.baomidou.mybatisplus.annotation.SqlCondition.LIKE;
  * 字典项
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2020-01-03
  */
 @Data

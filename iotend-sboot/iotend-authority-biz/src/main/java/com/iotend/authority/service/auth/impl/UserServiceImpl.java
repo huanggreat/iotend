@@ -50,7 +50,7 @@ import static com.iotend.common.constant.CacheKey.USER_ACCOUNT;
  * 账号
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 @Slf4j

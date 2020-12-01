@@ -21,7 +21,7 @@ import static com.iotend.utils.DateUtils.DEFAULT_DATE_TIME_FORMAT;
  * token
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2020-04-03
  */
 @Data

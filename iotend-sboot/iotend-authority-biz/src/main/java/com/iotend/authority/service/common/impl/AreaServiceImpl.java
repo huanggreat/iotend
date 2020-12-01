@@ -20,7 +20,7 @@ import static com.iotend.common.constant.CacheKey.AREA;
  * 地区表
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-02
  */
 @Slf4j

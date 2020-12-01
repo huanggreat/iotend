@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
  * 账号角色绑定
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2019-10-20
  */
 @Data

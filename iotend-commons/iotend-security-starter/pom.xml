@@ -25,7 +25,7 @@
     <name>${project.artifactId}</name>
 
     <properties>
-        <spring.sf>5.2.11.RELEASE</spring.sf>
+        <spring.sf>5.2.8.RELEASE</spring.sf>
     </properties>
 
     <dependencies>
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
-            <version>2.2.6.RELEASE</version>
+            <version>2.2.4.RELEASE</version>
             <exclusions>
                 <exclusion>
                     <groupId>com.google.guava</groupId>
@@ -54,7 +54,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
-            <version>2.2.6.RELEASE</version>
+            <version>2.2.4.RELEASE</version>
             <exclusions>
                 <exclusion>
                     <artifactId>guava</artifactId>
@@ -87,7 +87,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
-            <version>2.3.4.RELEASE</version>
+            <version>2.2.9.RELEASE</version>
             <optional>true</optional>
             <scope>compile</scope>
         </dependency>

@@ -9,6 +9,11 @@ import lombok.NoArgsConstructor;
 
 import java.util.stream.Stream;
 
+/**
+ * HTTP方法枚举
+ *
+ * @author huang
+ */
 @Getter
 @ApiModel(value = "HttpMethod", description = "HTTP方法-枚举")
 @AllArgsConstructor
@@ -68,4 +73,3 @@ public enum HttpMethod implements BaseEnum {
         return this.name();
     }
 }
-

@@ -9,7 +9,7 @@ import com.iotend.base.service.SuperCacheService;
  * 应用
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-12-15
  */
 public interface ApplicationService extends SuperCacheService<Application> {

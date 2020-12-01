@@ -32,7 +32,7 @@ import static com.iotend.common.constant.CacheKey.buildTenantKey;
  * 参数配置
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2020-02-05
  */
 @Slf4j

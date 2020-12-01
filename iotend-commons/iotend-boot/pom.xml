@@ -25,7 +25,7 @@
     </build>
 
     <properties>
-        <spring.sf>5.2.11.RELEASE</spring.sf>
+        <spring.sf>5.2.8.RELEASE</spring.sf>
     </properties>
 
     <dependencies>
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-core</artifactId>
-            <version>3.0.0</version>
+            <version>${springfox.swagger2.version}</version>
         </dependency>
         <dependency>
             <groupId>com.iotend</groupId>
@@ -80,7 +80,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
-            <version>5.3.1</version>
+            <version>5.2.8.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -9,7 +9,7 @@ import com.iotend.base.service.SuperService;
  * token
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2020-04-02
  */
 public interface UserTokenService extends SuperService<UserToken> {

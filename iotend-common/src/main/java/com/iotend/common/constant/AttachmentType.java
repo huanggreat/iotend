@@ -11,8 +11,9 @@ import java.util.Arrays;
  * 预定方式为：  定义一个系统级别的接口   此接口内包含这个系统内的所有表中需要的附件类型
  * key定时方式为entity_field
  * value定义方式为： 系统简称-entity-field
- * @author: huang
- * @create: 2020-11-30 13:21
+ *
+ * @author huang
+ * @date 2018/12/11
  */
 public class AttachmentType {
 

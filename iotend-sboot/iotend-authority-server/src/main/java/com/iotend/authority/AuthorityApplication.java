@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.core.env.Environment;
@@ -31,6 +32,7 @@ import java.net.UnknownHostException;
 @EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
 @EnableFormValidator
 @EnableLoginArgResolver
+@ComponentScan("com.iotend")
 //@EnableFeignClients("com.iotend")
 public class AuthorityApplication {
     public static void main(String[] args) throws UnknownHostException {

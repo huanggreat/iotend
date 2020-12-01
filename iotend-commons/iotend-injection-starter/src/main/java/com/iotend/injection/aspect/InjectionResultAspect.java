@@ -21,7 +21,7 @@ public class InjectionResultAspect {
     private InjectionCore injectionCore;
 
 
-    @Pointcut("@annotation(com.github.iotend.injection.annonation.InjectionResult)")
+    @Pointcut("@annotation(com.iotend.injection.annonation.InjectionResult)")
     public void methodPointcut() {
     }
 

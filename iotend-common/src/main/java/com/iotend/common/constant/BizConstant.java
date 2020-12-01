@@ -1,8 +1,11 @@
 package com.iotend.common.constant;
 
 /**
- * 业务常亮
- * */
+ * 业务常量
+ *
+ * @author huang
+ * @date 2019/08/06
+ */
 public interface BizConstant {
     /**
      * 超级租户编码
@@ -47,11 +50,11 @@ public interface BizConstant {
     /**
      * 基础库
      */
-    String BASE_DATABASE = "iotend_boot";
+    String BASE_DATABASE = "zuihou_boot";
     /**
      * 扩展库
      */
-    String EXTEND_DATABASE = "iotend_extend";
+    String EXTEND_DATABASE = "zuihou_extend";
 
     /**
      * 被T

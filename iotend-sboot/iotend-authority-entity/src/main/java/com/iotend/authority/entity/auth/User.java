@@ -30,7 +30,7 @@ import static com.iotend.utils.DateUtils.DEFAULT_DATE_TIME_FORMAT;
  * 用户
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2020-02-14
  */
 @Data

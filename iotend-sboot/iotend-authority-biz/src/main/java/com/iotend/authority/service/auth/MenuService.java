@@ -11,7 +11,7 @@ import java.util.List;
  * 菜单
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 public interface MenuService extends SuperCacheService<Menu> {

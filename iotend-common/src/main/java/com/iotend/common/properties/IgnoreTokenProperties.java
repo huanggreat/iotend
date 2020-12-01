@@ -8,9 +8,12 @@ import org.springframework.util.AntPathMatcher;
 import java.util.List;
 
 /**
- * @description: 忽略Token校验类
- * @author: huang
- * @create: 2020-11-30 13:32
+ * 忽略token 配置类
+ * <p>
+ * 做接口权限时，考虑修改成读取配置文件
+ *
+ * @author huang
+ * @date 2019/01/03
  */
 @Data
 @ConfigurationProperties(prefix = IgnoreTokenProperties.PREFIX)

@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
  * 系统日志
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-02
  */
 public interface OptLogService extends SuperService<OptLog> {

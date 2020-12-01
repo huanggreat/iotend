@@ -2,8 +2,12 @@ package com.iotend.common.constant;
 
 /**
  * 队列常量
- * */
+ *
+ * @author huang
+ * @date 2020年04月05日15:44:03
+ */
 public interface BizMqQueue {
+
     /**
      * 租户数据源 广播
      */

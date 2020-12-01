@@ -9,6 +9,12 @@ import lombok.NoArgsConstructor;
 
 import java.util.stream.Stream;
 
+/**
+ * 日期类型
+ *
+ * @author huang
+ * @date 2018/12/29
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

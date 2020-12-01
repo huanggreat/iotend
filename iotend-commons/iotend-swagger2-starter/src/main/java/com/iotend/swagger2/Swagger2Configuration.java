@@ -50,6 +50,7 @@ public class Swagger2Configuration {
     @ConditionalOnProperty(prefix = SwaggerProperties.PREFIX, name = "basic.enable", havingValue = "true")
     public SecurityBasicAuthFilter securityBasicAuthFilter(SwaggerProperties swaggerProperties) {
         SwaggerProperties.Basic basic = swaggerProperties.getBasic();
+
         return new SecurityBasicAuthFilter(basic.getEnable(), basic.getUsername(), basic.getPassword());
     }
 
@@ -61,3 +62,4 @@ public class Swagger2Configuration {
     }
 
 }
+

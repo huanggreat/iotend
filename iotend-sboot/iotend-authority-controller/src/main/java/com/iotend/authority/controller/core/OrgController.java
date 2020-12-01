@@ -35,7 +35,7 @@ import static com.iotend.utils.StrPool.*;
  * 组织
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-22
  */
 @Slf4j
@@ -85,7 +85,7 @@ public class OrgController extends SuperCacheController<OrgService, Long, Org, O
      *
      * @param status 状态
      * @return
-     * @author zuihou
+     * @author huang
      * @date 2019-07-29 11:59
      */
     @ApiOperation(value = "查询系统所有的组织树", notes = "查询系统所有的组织树")

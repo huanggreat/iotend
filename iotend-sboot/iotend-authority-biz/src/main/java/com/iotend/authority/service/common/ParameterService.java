@@ -9,7 +9,7 @@ import com.iotend.base.service.SuperService;
  * 参数配置
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2020-02-05
  */
 public interface ParameterService extends SuperService<Parameter> {

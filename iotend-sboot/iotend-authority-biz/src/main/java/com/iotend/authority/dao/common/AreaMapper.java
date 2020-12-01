@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * 地区表
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-02
  */
 @Repository

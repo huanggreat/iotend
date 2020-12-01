@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 /**
  * 参数修改事件监听，用于调整具体的业务
  *
- * @author zuihou
+ * @author huang
  * @date 2020年03月18日17:39:59
  */
 @Component

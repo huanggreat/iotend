@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 /**
  * 自定义模式
  *
- * @author zuihou
+ * @author huang
  * @version 1.0
  * @date 2019-06-08 16:31
  */

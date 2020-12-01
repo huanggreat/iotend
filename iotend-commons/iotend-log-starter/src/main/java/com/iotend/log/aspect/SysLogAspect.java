@@ -60,16 +60,16 @@ public class SysLogAspect {
      * 定义controller切入点拦截规则：拦截标记SysLog注解和指定包下的方法
      * 2个表达式加起来才能拦截所有Controller 或者继承了BaseController的方法
      *
-     * execution(public * com.github.iotend.base.controller.*.*(..)) 解释：
+     * execution(public * com.iotend.base.controller.*.*(..)) 解释：
      * 第一个* 任意返回类型
-     * 第二个* com.github.iotend.base.controller包下的所有类
+     * 第二个* com.iotend.base.controller包下的所有类
      * 第三个* 类下的所有方法
      * ()中间的.. 任意参数
      *
-     * \@annotation(com.github.iotend.log.annotation.SysLog) 解释：
+     * \@annotation(com.iotend.log.annotation.SysLog) 解释：
      * 标记了@SysLog 注解的方法
      */
-    @Pointcut("execution(public * com.github.iotend.base.controller.*.*(..)) || @annotation(com.github.iotend.log.annotation.SysLog)")
+    @Pointcut("execution(public * com.iotend.base.controller.*.*(..)) || @annotation(com.iotend.log.annotation.SysLog)")
     public void sysLogAspect() {
 
     }

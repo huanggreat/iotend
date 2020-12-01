@@ -11,7 +11,7 @@ import com.iotend.utils.StrPool;
  * <p>
  * 3.0.0 废弃本类
  *
- * @author zuihou
+ * @author huang
  * @date 2019/08/06
  * @see com.iotend.common.cache.CacheKeyDefinition
  */

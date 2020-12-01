@@ -9,7 +9,7 @@ import com.iotend.base.service.SuperService;
  * 字典类型
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-02
  */
 public interface DictionaryService extends SuperService<Dictionary> {

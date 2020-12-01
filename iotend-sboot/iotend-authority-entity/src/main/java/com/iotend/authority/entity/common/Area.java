@@ -25,7 +25,7 @@ import static com.iotend.common.constant.InjectionFieldConstants.DICTIONARY_ITEM
  * 地区表
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @since 2020-02-02
  */
 @Data

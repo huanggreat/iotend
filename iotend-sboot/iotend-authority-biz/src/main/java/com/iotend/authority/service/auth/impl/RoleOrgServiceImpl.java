@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * 角色组织关系
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 @Slf4j

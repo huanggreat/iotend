@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 参数配置
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2020-02-05
  */
 @Slf4j

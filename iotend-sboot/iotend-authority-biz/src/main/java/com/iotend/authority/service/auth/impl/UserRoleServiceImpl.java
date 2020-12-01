@@ -23,7 +23,7 @@ import static com.iotend.common.constant.BizConstant.INIT_ROLE_CODE;
  * 账号角色绑定
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 @Slf4j

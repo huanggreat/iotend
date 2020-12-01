@@ -15,15 +15,22 @@
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-core/iotend-core.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-core/iotend-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-databases/iotend-databases.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-databases/iotend-databases.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-dozer-starter/iotend-dozer-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-dozer-starter/iotend-dozer-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-file-biz/iotend-file-biz.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-file-biz/iotend-file-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-file-controller/iotend-file-controller.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-file-controller/iotend-file-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-file-entity/iotend-file-entity.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-file-entity/iotend-file-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-injection-starter/iotend-injection-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-injection-starter/iotend-injection-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-j2cache-starter/iotend-j2cache-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-j2cache-starter/iotend-j2cache-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-jwt-starter/iotend-jwt-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-jwt-starter/iotend-jwt-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-log-starter/iotend-log-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-log-starter/iotend-log-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-mq-starter/iotend-mq-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-mq-starter/iotend-mq-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" filepath="$PROJECT_DIR$/iotend-mqtt/iotend-mqtt-emqx/iotend-mqtt-emqx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-oauth-biz/iotend-oauth-biz.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-oauth-biz/iotend-oauth-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-oauth-controller/iotend-oauth-controller.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-oauth-controller/iotend-oauth-controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-sboot.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-sboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-security-starter/iotend-security-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-security-starter/iotend-security-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/iotend-swagger2-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-swagger2-starter/iotend-swagger2-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-biz/iotend-tenant-biz.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-tenant-biz/iotend-tenant-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-controller/iotend-tenant-controller.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-tenant-controller/iotend-tenant-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iotend-sboot/iotend-tenant-entity/iotend-tenant-entity.iml" filepath="$PROJECT_DIR$/iotend-sboot/iotend-tenant-entity/iotend-tenant-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-uid/iotend-uid.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-uid/iotend-uid.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-validator-starter/iotend-validator-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-validator-starter/iotend-validator-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/iotend-commons/iotend-xss-starter/iotend-xss-starter.iml" filepath="$PROJECT_DIR$/iotend-commons/iotend-xss-starter/iotend-xss-starter.iml" />

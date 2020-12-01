@@ -19,7 +19,7 @@ import java.util.Set;
  * 账号
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2019-07-03
  */
 public interface UserService extends SuperCacheService<User> {

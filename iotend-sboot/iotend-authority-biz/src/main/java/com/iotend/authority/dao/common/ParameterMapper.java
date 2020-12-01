@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * 参数配置
  * </p>
  *
- * @author zuihou
+ * @author huang
  * @date 2020-02-05
  */
 @Repository
