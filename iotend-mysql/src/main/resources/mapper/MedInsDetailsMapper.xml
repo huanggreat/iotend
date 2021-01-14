@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iotend.my.mapper.MedInsDetailsMapper">
+    <insert id="add" parameterType="com.iotend.my.model.MedInsDetails" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO `medinsdetails`
+        (
+        `registrant`,
+        `specificationCode`,
+        `catalogname1`,
+        `catalogname2`,
+        `catalogname3`,
+        `commonname`,
+        `matrial`,
+        `characteristic`,
+        `regcardnm`,
+        `productName`,
+        `companyName`,
+        `releaseVersion`,
+        `ggxhCount`)
+        VALUES
+        (
+         #{registrant},#{specificationCode},#{catalogname1},#{catalogname2},#{catalogname3},#{commonname}
+        ,#{matrial},#{characteristic},#{regcardnm},#{productName},#{companyName},#{releaseVersion}
+        ,#{ggxhCount}
+        );
+    </insert>
+</mapper>

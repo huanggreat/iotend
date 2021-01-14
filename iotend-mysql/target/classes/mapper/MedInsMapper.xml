@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iotend.my.mapper.MedInsMapper">
+    <insert id="add" parameterType="com.iotend.my.model.MedIns" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO medins
+        (
+        specificationCode,
+        catalogname1,
+        catalogname2,
+        catalogname3,
+        commonname,
+        matrial,
+        characteristic,
+        regcardnm,
+        productName,
+        companyName,
+        releaseVersion,
+        ggxhCount)
+        VALUES
+        (#{specificationCode},#{catalogname1},#{catalogname2},#{catalogname3},#{commonname},#{matrial},#{characteristic}
+        ,#{regcardnm},#{productName}
+        ,#{companyName},#{releaseVersion},#{ggxhCount});
+    </insert>
+    <select id="findAll" resultType="com.iotend.my.model.MedIns">
+        select * from medins;
+    </select>
+    <select id="findById" parameterType="int" resultType="com.iotend.my.model.MedIns">
+        select * from medins where id >= #{id};
+    </select>
+</mapper>
