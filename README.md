@@ -4,4 +4,4 @@
 
 
 #####感谢支持
-![Image text]()
+![支付宝](doc/images/支付宝收款.jpg)
