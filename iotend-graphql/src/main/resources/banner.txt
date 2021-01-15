@@ -1,0 +1,12 @@
+,--.           ,--.                       ,--.                                          ,--.              ,--.
+|  |  ,---.  ,-'  '-.  ,---.  ,--,--,   ,-|  | ,-----.  ,---.  ,--.--.  ,--,--.  ,---.  |  ,---.   ,---.  |  |
+|  | | .-. | '-.  .-' | .-. : |      \ ' .-. | '-----' | .-. | |  .--' ' ,-.  | | .-. | |  .-.  | | .-. | |  |
+|  | ' '-' '   |  |   \   --. |  ||  | \ `-' |         ' '-' ' |  |    \ '-'  | | '-' ' |  | |  | ' '-' | |  |
+`--'  `---'    `--'    `----' `--''--'  `---'          .`-  /  `--'     `--`--' |  |-'  `--' `--'  `-|  | `--'
+                                                       `---'                    `--'                 `--'
+:: Copyright (c) 2021 物联网趋势(iotend.com).
+:: All rights reserved.
+:: Built with Spring Boot :: ${spring-boot.version}
+:: Banner built with :: https://devops.datenkollektiv.de/banner.txt/index.html
+:: Banner Font :: slant
+:: Graphql MongoDB Test!

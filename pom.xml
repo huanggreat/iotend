@@ -12,6 +12,7 @@
         <module>iotend-mysql</module>
         <module>iotend-mongodb</module>
         <module>iotend-autogenerator</module>
+        <module>iotend-graphql</module>
     </modules>
 
     <properties>
@@ -25,6 +26,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>${springboot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
             <version>${springboot.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
